@@ -5,9 +5,7 @@ body {
     width: 960px;
     height: 960px;
     margin: auto;
-    
-
-    
+ 
 }
 
 h1,h2,h3 {
@@ -26,8 +24,10 @@ h1,h2,h3 {
 .MainHeader { 
     background-color:#4aaaa5;
     color: white;
-    position: relative;
+    /* position: relative; */
     width: 180px;
+    /* float: left; */
+    height:100px;
    
     
 
@@ -46,6 +46,7 @@ h1,h2,h3 {
     position: relative;
     left: 10px;
     border: teal;
+    float: left;
 
 }
 
@@ -61,5 +62,8 @@ h1,h2,h3 {
     
 }
 
+.inline {
+    display: inline;
+}
 
 
